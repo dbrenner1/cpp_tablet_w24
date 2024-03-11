@@ -14,11 +14,8 @@ body{
 }
 .nav-link {
     color: black;
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    float: none;
+    width: auto;
   }
   
 .nav-link.active {
@@ -443,10 +440,12 @@ h3{text-align:center;
 
 @media only screen and (min-width: 600px){
 
-    .nav-link{
-    float: none;
-    width: 100%;
-  }
+.nav-link{
+    display: inline-block;
+    width: 90%;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
 }
     .travel_grid_1 {
         display: grid;
